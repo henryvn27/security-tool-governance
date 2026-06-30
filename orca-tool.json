@@ -1,0 +1,21 @@
+{
+  "id": "security-tool-governance",
+  "name": "Security Tool Governance",
+  "repo": "https://github.com/henryvn27/security-tool-governance",
+  "description": "Security review, approval gates, tool trust, MCP review, and setup guardrails for risky agent work.",
+  "category": "security",
+  "install": {
+    "git": "git clone https://github.com/henryvn27/security-tool-governance.git"
+  },
+  "verify": "ruby scripts/verify.rb",
+  "dependencies": [],
+  "conflicts": [],
+  "provides": [
+    "security",
+    "approval-gate",
+    "tool-governance",
+    "tool-setup"
+  ],
+  "license": "MIT",
+  "source": "Extracted from the manager repo skills into a standalone tool repo."
+}
