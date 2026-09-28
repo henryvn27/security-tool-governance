@@ -55,8 +55,8 @@ An approval request should state:
 
 Record approvals in the durable system of record:
 
-- Linear comment or linked artifact in Linear-first mode
-- durable issue comment, doc, or file in opt-out mode
+- GitHub issue or pull-request comment, linked artifact, or Project record in the normal engineering workflow
+- durable repository doc or file when an explicit local-only workflow is in use
 
 Do not rely on ephemeral chat as the only approval record for non-trivial work.
 
